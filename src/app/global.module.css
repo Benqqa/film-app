@@ -1,0 +1,27 @@
+.pointer {
+    cursor: pointer;
+}
+
+.cardBorderRadius {
+    border-radius: 8px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.filterBlockWidth {
+    width: 408px;
+}
+
+.transition {
+    transition: transform 0.2s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.flexFull {
+    flex: 1 1;
+}

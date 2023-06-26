@@ -1,0 +1,39 @@
+.button {
+    /* Resetting all default styles */
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.buttonFilled:hover,
+.buttonOutline:hover {
+    background-color: #E94E00;
+}
+
+.buttonFilled:disabled {
+    background-color: #FFA375;
+}
+
+.buttonDefault {}
+
+.buttonFilled {
+    border-radius: 4px;
+    color: white;
+    background-color: #FF5500;
+}
+
+.buttonOutline {
+    border-radius: 4px;
+    color: #FF5500;
+    border: #FF5500 1px solid;
+    background-color: transparent;
+}
+
+.buttonFilled path,
+.buttonDefault path {
+    fill: white;
+}
